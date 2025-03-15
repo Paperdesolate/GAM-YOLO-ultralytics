@@ -166,4 +166,4 @@ def get_params():
 
 if __name__ == '__main__':
     model = yolov8_heatmap(**get_params())
-    model(r'1/test.jpg', 'result/9ceng')  # 路径
+    model(r'1/test.jpg', 'result/9ceng')  # 
