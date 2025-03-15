@@ -27,4 +27,4 @@ if __name__ == "__main__":
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    convert_dicom_to_jpg(input_folder, output_folder, dpi=800)
+    convert_dicom_to_jpg(input_folder, output_folder, dpi=300)
